@@ -18,6 +18,3 @@ export const QUERY_ME = gql`
     }
 }
 `;
-
-
-//check if this is correct
