@@ -10,7 +10,11 @@ type User {
 } 
 type Book {
     _id: ID
-
+    authors:[String]
+    description: String
+    image: String
+    link: String
+    title: String
 }
 type Authors {
     authors:[String]
