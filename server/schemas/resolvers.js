@@ -39,23 +39,24 @@ const resolvers = {
         },
         saveBook: async (parent, { input }, context) => {
             if (context.user) {
-                const updateUser = await User.findOneAndUpdate(
+                const updatedUser = await User.findOneAndUpdate(
                     { _id: context.user._id },
                     { $addToSet: { savedBooks: input } },
                     { new: true, runValoidators: true }
                 );
-                return updateUser;
+                
+                return updatedUser;
             }
             throw new AuthenticationError("You are not logged in!");
         },
         removeBook: async (parent, { bookId }, context) => {
             if (context.user) {
-                const updateUser = await User.findOneAndUpdate(
+                const updatedUser = await User.findOneAndUpdate(
                     { _id: context.user._id },
                     { $pull: { savedBooks: { bookId: bookId } } },
                     { new: true },
                 )
-                return updateUser;
+                return updatedUser;
             }
             throw new AuthenticationError("You are not logged in!");
         }
