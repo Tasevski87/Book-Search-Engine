@@ -1,7 +1,7 @@
 # Book Search Engine
 
   ## Description
-`Book Search Engin`e is application that allow us to search the internet for online book. The app also have the feature to create a user so we can SignUp, LogIn, then search for online book and also save them as our favorite ones.
+`Book Search Engine` is application that allow us to search the internet for online book. The app also have the feature to create a user so we can SignUp, LogIn, then search for online book and also save them as our favorite ones.
 
 ------------------------------------------------
 # Table of Contents
@@ -48,11 +48,11 @@ MIT
 ## Tests
 Testing was done with `Graphql`. Here is example:
 
-<img width="350" alt="Screen Shot 2022-04-12 at 9 58 44 AM" src="https://user-images.githubusercontent.com/91975394/162981814-d1eb3fd0-c9f1-4419-a8a5-e53e3c80b700.png">
-<img width="350" alt="Screen Shot 2022-04-12 at 9 59 50 AM" src="https://user-images.githubusercontent.com/91975394/162981817-6fc3a0fb-e058-46f0-ba16-78ea7ee43487.png">
+<img width="300" alt="Screen Shot 2022-04-12 at 9 58 44 AM" src="https://user-images.githubusercontent.com/91975394/162981814-d1eb3fd0-c9f1-4419-a8a5-e53e3c80b700.png">
+<img width="300" alt="Screen Shot 2022-04-12 at 9 59 50 AM" src="https://user-images.githubusercontent.com/91975394/162981817-6fc3a0fb-e058-46f0-ba16-78ea7ee43487.png">
 
-<img width="350" alt="Screen Shot 2022-04-12 at 10 01 15 AM" src="https://user-images.githubusercontent.com/91975394/162981809-37fa8ab0-d767-455b-979d-3d03402ba200.png">
-<img width="350" alt="Screen Shot 2022-04-12 at 10 09 47 AM" src="https://user-images.githubusercontent.com/91975394/162981820-04c043c9-4962-441c-bc66-347dc86893ca.png">
+<img width="300" alt="Screen Shot 2022-04-12 at 10 01 15 AM" src="https://user-images.githubusercontent.com/91975394/162981809-37fa8ab0-d767-455b-979d-3d03402ba200.png">
+<img width="300" alt="Screen Shot 2022-04-12 at 10 09 47 AM" src="https://user-images.githubusercontent.com/91975394/162981820-04c043c9-4962-441c-bc66-347dc86893ca.png">
 
 ## Contributors
 This project is school assignment and contributors were not allowed. The project is public and in the future contributors will be welcome.
